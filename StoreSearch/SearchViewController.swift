@@ -48,10 +48,10 @@ extension SearchViewController: UISearchBarDelegate {
                 searchResult.artistName = searchBar.text!
                 searchResults.append(searchResult)
             
-                hasSearched = true
-                tableView.reloadData()
             }
         }
+        hasSearched = true
+        tableView.reloadData()
     }
     
     func position(for bar: UIBarPositioning) -> UIBarPosition {
