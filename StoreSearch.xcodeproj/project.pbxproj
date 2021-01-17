@@ -16,6 +16,7 @@
 		3898B4EF25AFF6C200F76107 /* SearchResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3898B4EE25AFF6C200F76107 /* SearchResultCell.xib */; };
 		3898B4F225B28EE400F76107 /* SearchResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3898B4F125B28EE400F76107 /* SearchResultCell.swift */; };
 		3898B4F625B2935600F76107 /* NothingFoundCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3898B4F525B2935600F76107 /* NothingFoundCell.xib */; };
+		3898B4FC25B3D32400F76107 /* LoadingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3898B4FB25B3D32400F76107 /* LoadingCell.xib */; };
 		38C04BE825AEC19E00F6E9AF /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C04BE725AEC19E00F6E9AF /* SearchResult.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		3898B4EE25AFF6C200F76107 /* SearchResultCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchResultCell.xib; sourceTree = "<group>"; };
 		3898B4F125B28EE400F76107 /* SearchResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultCell.swift; sourceTree = "<group>"; };
 		3898B4F525B2935600F76107 /* NothingFoundCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NothingFoundCell.xib; sourceTree = "<group>"; };
+		3898B4FB25B3D32400F76107 /* LoadingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingCell.xib; sourceTree = "<group>"; };
 		38C04BE725AEC19E00F6E9AF /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -67,6 +69,7 @@
 				3883599425AC0AB3007C2C4E /* AppDelegate.swift */,
 				3883599625AC0AB3007C2C4E /* SceneDelegate.swift */,
 				3883599825AC0AB3007C2C4E /* SearchViewController.swift */,
+				38C04BE725AEC19E00F6E9AF /* SearchResult.swift */,
 				3898B4F125B28EE400F76107 /* SearchResultCell.swift */,
 				3898B4EE25AFF6C200F76107 /* SearchResultCell.xib */,
 				3898B4F525B2935600F76107 /* NothingFoundCell.xib */,
@@ -74,7 +77,7 @@
 				3883599D25AC0AB4007C2C4E /* Assets.xcassets */,
 				3883599F25AC0AB4007C2C4E /* LaunchScreen.storyboard */,
 				388359A225AC0AB4007C2C4E /* Info.plist */,
-				38C04BE725AEC19E00F6E9AF /* SearchResult.swift */,
+				3898B4FB25B3D32400F76107 /* LoadingCell.xib */,
 			);
 			path = StoreSearch;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			files = (
 				388359A125AC0AB4007C2C4E /* LaunchScreen.storyboard in Resources */,
 				3898B4F625B2935600F76107 /* NothingFoundCell.xib in Resources */,
+				3898B4FC25B3D32400F76107 /* LoadingCell.xib in Resources */,
 				3883599E25AC0AB4007C2C4E /* Assets.xcassets in Resources */,
 				3898B4EF25AFF6C200F76107 /* SearchResultCell.xib in Resources */,
 				3883599C25AC0AB3007C2C4E /* Main.storyboard in Resources */,
