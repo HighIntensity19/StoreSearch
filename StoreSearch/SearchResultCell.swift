@@ -41,7 +41,6 @@ class SearchResultCell: UITableViewCell {
         downloadTask?.cancel()
         downloadTask = nil
         
-        print("PrepareForReuse() is running")
     }
     
     // MARK: - Helper Methods
